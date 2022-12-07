@@ -1,0 +1,32 @@
+.LinkWrapperHref {
+  display: flex;
+  align-items: center;
+  padding: 6px 12px !important;
+  border-radius: 10px;
+  transition: all 0.1s ease;
+  &:hover {
+    background: #0f0f0f13;
+    color: #0f0f0f;
+  }
+  .LinkText {
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    font-weight: 400;
+    z-index: -111;
+  color: #0f0f0f;
+
+  }
+  .LinkIcon {
+  color: #0f0f0f;
+    font-family: "Roboto", "Arial", sans-serif;
+    margin-right: 24px;
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem !important;
+  }
+}

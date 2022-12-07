@@ -1,0 +1,30 @@
+.List-wrapper {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+.active {
+  background: #0f0f0f13;
+}
+.active .LinkText {
+  color: #000000 !important;
+  font-weight: 500 !important;
+}
+.active:hover {
+  background: #0f0f0f22 !important;
+}
+.LinkText{
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 1rem !important;
+}
+.subscriptions{
+      text-transform: none;
+    letter-spacing: unset;
+    padding: 6px 12px 4px;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+    color: #0f0f0f;
+}

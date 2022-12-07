@@ -1,0 +1,64 @@
+.card {
+  box-shadow: none;
+  margin: 10px auto;
+
+  cursor: pointer;
+  .card-bg-img {
+    object-fit: cover;
+    width: 100% !important;
+    height: 162px !important;
+    border-radius: 10px;
+  }
+  .card-bodys {
+    .channel-wrapper {
+      border-radius: 50%;
+    }
+    .card-body-text {
+      padding-left: 10px;
+      .card-title {
+        font-family: "Roboto", "Arial", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 1.4rem;
+        text-overflow: ellipsis;
+        white-space: normal;
+        /* or 121% */
+
+        letter-spacing: -0.05em;
+
+        /* Youtube/White */
+
+        color: #0f0f0f;
+      }
+      .card-channel-title {
+        color: #606060;
+        text-overflow: ellipsis;
+        white-space: pre;
+        unicode-bidi: isolate;
+        font-size: 1rem;
+        font-family: sans-serif;
+        display: flex;
+        align-items: center;
+        i{
+            margin-left: 6px;
+            font-size: 1.2rem;
+        color: #606060;
+
+        }
+      }
+      .card-view {
+        span {
+          font-size: 0.9rem;
+          color: #606060 !important;
+          font-weight: 400;
+          line-height: 1.4rem;
+          font-family: "Roboto", "Arial", sans-serif;
+          white-space: normal;
+        }
+      }
+    }
+    padding-top: 15px;
+    display: flex;
+  }
+}
